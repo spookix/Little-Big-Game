@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LittleBigGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LittleBigGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LittleBigGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++98" />
+			<Add option="-fexceptions" />
+			<Add option="-lfreetype" />
+		</Compiler>
+		<Unit filename="../AbstractEntity.cpp" />
+		<Unit filename="../AbstractEntity.hh" />
+		<Unit filename="../CircleEntity.cpp" />
+		<Unit filename="../CircleEntity.hh" />
+		<Unit filename="../EntityFactory.cpp" />
+		<Unit filename="../EntityFactory.hh" />
+		<Unit filename="../InputManager.cpp" />
+		<Unit filename="../InputManager.hh" />
+		<Unit filename="../Scene.cpp" />
+		<Unit filename="../Scene.hh" />
+		<Unit filename="../TextEntity.cpp" />
+		<Unit filename="../TextEntity.hh" />
+		<Unit filename="../TimeManager.cpp" />
+		<Unit filename="../TimeManager.hh" />
+		<Unit filename="../Utils.cpp" />
+		<Unit filename="../Utils.hh" />
+		<Unit filename="../main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

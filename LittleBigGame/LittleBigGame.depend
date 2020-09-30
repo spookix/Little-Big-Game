@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\timemanager.cpp
+	"TimeManager.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\timemanager.hh
+	<chrono>
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\abstractentity.cpp
+	"AbstractEntity.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\abstractentity.hh
+	<SFML/Graphics.hpp>
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\circleentity.cpp
+	<stdio.h>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"CircleEntity.hh"
+	"Utils.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\circleentity.hh
+	<SFML/Graphics.hpp>
+	"AbstractEntity.hh"
+	"Utils.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\utils.hh
+	<SFML/Graphics.hpp>
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\entityfactory.cpp
+	"EntityFactory.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\entityfactory.hh
+	<iostream>
+	"AbstractEntity.hh"
+	"CircleEntity.hh"
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\inputmanager.cpp
+	"InputManager.hh"
+	"CircleEntity.hh"
+	"Scene.hh"
+	"TimeManager.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\inputmanager.hh
+	<SFML/Graphics.hpp>
+	"CircleEntity.hh"
+	"Scene.hh"
+	"TimeManager.hh"
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\scene.hh
+	<SFML/Graphics.hpp>
+	"AbstractEntity.hh"
+	"EntityFactory.hh"
+	"TimeManager.hh"
+	"CircleEntity.hh"
+	"TextEntity.hh"
+	<math.h>
+	<list>
+
+1559835038 c:\users\marti\documents\etna\m1\c++\little big game\textentity.hh
+	<SFML/Graphics.hpp>
+	"Utils.hh"
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\main.cpp
+	"Scene.hh"
+	"InputManager.hh"
+	"TextEntity.hh"
+	<SFML/Window.hpp>
+	<iostream>
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\scene.cpp
+	"Scene.hh"
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\textentity.cpp
+	"TextEntity.hh"
+	"Scene.hh"
+
+1559835038 source:c:\users\marti\documents\etna\m1\c++\little big game\utils.cpp
+	"Utils.hh"
+
